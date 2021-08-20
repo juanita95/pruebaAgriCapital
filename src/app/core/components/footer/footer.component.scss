@@ -1,0 +1,19 @@
+.navbar{
+  position: fixed;
+  bottom: 0;
+  height: 2rem;
+  width: 100%;
+}
+
+.nav-item{
+  width: 25%;
+}
+
+ul{
+  width: 100%;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}

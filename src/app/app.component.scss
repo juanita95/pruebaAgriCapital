@@ -1,0 +1,19 @@
+@media(max-width: 576px) {
+  header {
+    background-image: url("/assets/header.png");
+    background-size:100% 100%;
+    height: 11.25rem;
+  }
+}
+
+@media(min-width: 577px) {
+  header {
+    height: 0;
+  }
+}
+
+.wrapper_general{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

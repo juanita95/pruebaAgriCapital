@@ -1,0 +1,16 @@
+<article>
+  <header>
+    <h1 class="mt-2">Seleccione Archivos</h1>
+  </header>
+  <section>
+    <app-upload (onValueChanged)="saveFile($event)"></app-upload>
+    <button class="btn btn-sm" (click)="showAlert()" [disabled]="isButtonDisabled"><span class="icon-Send"></span>Enviar
+      Cliente</button>
+  </section>
+  <footer>
+    <div *ngIf="canShowAlert" class="alert alert-primary" role="alert">
+     El nombre del archivo es {{fileSelect.name}} es de tipo {{fileSelect.type}} y la ultima actualización
+     se realizó el {{fileSelect.lastModifiedDate | date: 'short' }}
+    </div>
+  </footer>
+</article>

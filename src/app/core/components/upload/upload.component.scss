@@ -1,0 +1,41 @@
+::ng-deep {
+
+  dx-file-uploader{
+    display: flex !important;
+  }
+
+  .dx-fileuploader-input-wrapper .dx-button{
+    border-radius: 50%;
+    width: 11rem;
+    height: 5rem;
+  }
+
+   .dx-fileuploader-input-wrapper{
+    display: flex;
+    justify-content: center;
+  }
+
+  .dx-fileuploader-input-container {
+    display: none;
+  }
+
+  .dx-button .dx-button-content {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dx-fileuploader-file {
+    display: flex;
+    justify-content: center;
+  }
+
+  .dx-fileuploader-file-status-message {
+    display: none;
+  }
+
+  .dx-fileuploader-file-info {
+    width:auto !important;
+  }
+}

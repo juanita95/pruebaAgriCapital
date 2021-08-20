@@ -1,0 +1,19 @@
+@media(max-width: 576px) {
+  header {
+    visibility: visible;
+  }
+}
+
+@media(min-width: 577px) {
+  header {
+    visibility: hidden;
+  }
+}
+
+p{
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
